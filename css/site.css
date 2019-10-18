@@ -27,13 +27,14 @@ section{
     font-family: Bitter;
 }
 
-.text1{
+h3{
     color: #ffca00;
     line-height: 1.5;
     margin: 30px 10px;
+    text-decoration: none;
 }
 
-.enterPage{
+.enter__page{
     display: flex;
     justify-content: center;
     align-items: center;
