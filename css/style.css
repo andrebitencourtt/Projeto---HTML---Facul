@@ -1,5 +1,5 @@
 .app {
-    background: #424242;
+    background: #585858;
     display: grid;  
     font-family: Arial, Helvetica, sans-serif;
     grid-template-areas: 
@@ -7,11 +7,16 @@
         "conteudo"
         "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 150px auto auto; 
+    grid-template-rows: 200px auto auto; 
 }
 
 .menu__image img{
     width: 12%;
+}
+
+.menu__lista{
+    margin-left: 33px;
+    font-family: Bitter;
 }
 
 .menu__link {
@@ -21,17 +26,13 @@
 }
 
 .sub:hover, .ativo {
-    border-bottom: 2px solid #0073e6;
+    border-bottom: 2px solid #000;
 }
 
 .cabecalho {
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    justify-content: center;
     padding: 0 2rem;
     grid-area: cabecalho;
-    background:  #A4A4A4;
+    background:  #424242;
 }
  
 .conteudo {
@@ -40,8 +41,8 @@
 }
 
 .rodape {
-    background: #A4A4A4;
-    color: #333333;
+    background: #424242;
+    color: #fff;
     font-size: .8rem;
     padding: 1rem;
     text-align: center;

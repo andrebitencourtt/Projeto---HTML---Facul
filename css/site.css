@@ -16,7 +16,6 @@
     color: #fff;
     text-align: center;
     font-weight: bolder;
-
 }
 
 a{
@@ -34,7 +33,7 @@ h3{
     text-decoration: none;
 }
 
-.enter__page{
+.text__enter{
     display: flex;
     justify-content: center;
     align-items: center;
