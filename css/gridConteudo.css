@@ -100,15 +100,22 @@
     justify-content: space-between;
 }
 
+.destaques__categorias___item h1{
+    text-align: center;
+    padding: 20px 20px;
+}
+
 .destaques__categorias___item{
     background: #424242;
     border-left: 5px solid transparent;
     color: #fff;
     display: flex;
-    padding: 1rem;
+    padding: 1rem 50px;
     width: 100%;
     font-size: 50px;
     word-break: break-all;
+    text-align: justify;
+    line-height: 2.5rem;
 }
 
 .destaques__categorias___item h2{
