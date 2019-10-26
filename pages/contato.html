@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Site da Beer House">
+	<meta name="keywords" content="Cervejas, Cerveja, Choop, Cervejas atesanais">
+	<meta name="author" content="Andre Bitencourt">
+	<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/grid_contato.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/forms.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Laila&display=swap" rel="stylesheet">
+	<title>Beer House - Home</title>
+</head>
+<body class="app">
+    <header class="cabecalho">
+        <nav class="menu">
+			<ul class="menu__image">
+				<li>
+					<a class="menu__link" href="home.html">                        
+						<img src="../imgs/logo-transparent.png" alt="Logo Beer House">
+					</a>
+				</li>
+			</ul>
+            <ul class="menu__lista">
+				<li class="menu__item"></li>
+				<h3 class="redes__sociais">Conecte-se conosco<h3>
+					<a class="menu__link" href="home.html">                        
+						Beer House
+					</a>
+					<a class="menu__link">                        
+							|
+					</a>
+                    <a class="menu__link sub" href="home.html">
+                        Home
+                    </a>
+                    <a class="menu__link sub" href="produtos.html">                        
+                        Produtos</a>
+                    <a class="menu__link ativo sub" href="contato.html">                       
+                        Contato
+					</a>	
+					<a><img src="../imgs/logo-youtube.png" alt="Logo-Youtube"></a>					
+					<a><img src="../imgs/logo-whats.png" alt="Logo-Whatsapp"></a>
+					<a><img src="../imgs/logo-instagram.png" alt="Logo-Instagram"></a>
+					<a><img src="../imgs/logo-facebook.png" alt="Logo-Facebook"></a>
+				</li>
+			</ul>
+        </nav>
+	</header>
+	<main class="conteudo__pages">
+		<section class="contato">
+			<div class="contato__principal caixa">
+				<form class="formulario" name="meuForm" method="post" id="formulario">
+					<div class="box"> 
+						<h1>Entre em Contato :</h1>
+				  
+						<label> 
+							<span>Nome :</span>
+							<input type="text" class="input_text" name="nome" id="name" placeholder="Digite seu nome..." required/>
+						</label>
+				  
+						<label>
+							<span>Email :</span>
+							<input type="email" class="input_text" name="email" id="email" placeholder="exemplo@exemplo.com"/>
+						 </label>
+						 
+						<label>
+							<span>Telefone :</span>
+							<input type="text" class="input_text" name="senha" id="subject" placeholder="Ex.: (00) 00000-0000"/>
+						</label>
+				
+						<label>
+							<span>Calendario :</span>
+							<input type="date" class="input_text" name="calendario" id="subject" required/>
+						</label>
+				
+						<label>
+							<span class="span_sexo" >Sexo</span>
+							<input type="radio" class="input_radio" name="m" value="male"> Masculino<br>
+							<input type="radio" class="input_radio" name="f" value="female" checked> Feminino<br>
+							<input type="radio" class="input_radio" name="o" value="other"> Outros<br>
+						</label>
+				
+						<label>
+							<input type="checkbox" class="input_chekbox" name="vehicle1" value=""> Desejo receber emails de promoções e novidades?<br>
+						</label>
+				  
+						<label>
+							 <span>Mensagem :</span>
+							<textarea class="message" name="feedback" id="feedback" placeholder="Deixe uma mensagem..."></textarea>
+							<div class="buttons">
+								<input type="reset" class="button reset" value="Limpar" />
+								<input type="button" class="button enviar" value="Enviar" />
+							</div>
+						</label>           
+					</div>
+				</form> 
+			</div>
+		</section>
+	</main>
+	<footer class="rodape">Beer House todos os direitos reservados &copy; 2019</footer>
+</body>
+</html>

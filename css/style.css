@@ -42,6 +42,10 @@
     border-bottom: 2px solid #000;
 }
 
+.conteudo__pages{
+    grid-area: conteudo;
+}
+
 .cabecalho {
     padding: 0 2rem;
     grid-area: cabecalho;

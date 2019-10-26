@@ -1,0 +1,19 @@
+.contato{
+    display: grid;
+    /*grid-gap: .2rem;*/
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    height: calc(150vh - 50px);
+}
+
+.contato__principal{
+    background: url(../imgs/fundo-contato.jpg) center / cover no-repeat;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.formulario{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
