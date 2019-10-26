@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="../css/grid_contato.css"/>
-	<link rel="stylesheet" type="text/css" href="../css/forms.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Laila&display=swap" rel="stylesheet">
 	<title>Beer House - Home</title>
@@ -63,12 +62,12 @@
 				  
 						<label>
 							<span>Email :</span>
-							<input type="email" class="input_text" name="email" id="email" placeholder="exemplo@exemplo.com"/>
+							<input type="email" class="input_text" name="email" id="email" placeholder="exemplo@exemplo.com" required/>
 						 </label>
 						 
 						<label>
 							<span>Telefone :</span>
-							<input type="text" class="input_text" name="senha" id="subject" placeholder="Ex.: (00) 00000-0000"/>
+							<input type="text" class="input_text" name="senha" id="subject" placeholder="Ex.: (00) 00000-0000" required/>
 						</label>
 				
 						<label>
@@ -78,13 +77,13 @@
 				
 						<label>
 							<span class="span_sexo" >Sexo</span>
-							<input type="radio" class="input_radio" name="m" value="male"> Masculino<br>
-							<input type="radio" class="input_radio" name="f" value="female" checked> Feminino<br>
-							<input type="radio" class="input_radio" name="o" value="other"> Outros<br>
+							<input type="radio" class="input_radio" name="sexo" value="male" checked> Masculino<br>
+							<input type="radio" class="input_radio" name="sexo" value="female"> Feminino<br>
+							<input type="radio" class="input_radio" name="sexo" value="other"> Outros<br>
 						</label>
 				
 						<label>
-							<input type="checkbox" class="input_chekbox" name="vehicle1" value=""> Desejo receber emails de promoções e novidades?<br>
+							<input type="checkbox" class="input_chekbox" name="vehicle1" value=""> Deseja receber emails de promoções e novidades?
 						</label>
 				  
 						<label>
@@ -92,7 +91,7 @@
 							<textarea class="message" name="feedback" id="feedback" placeholder="Deixe uma mensagem..."></textarea>
 							<div class="buttons">
 								<input type="reset" class="button reset" value="Limpar" />
-								<input type="button" class="button enviar" value="Enviar" />
+								<input type="submit" class="button enviar" value="Enviar" />
 							</div>
 						</label>           
 					</div>
