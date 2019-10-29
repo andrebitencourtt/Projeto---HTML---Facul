@@ -56,8 +56,8 @@
     display: grid;
     grid-gap: .2rem;
     grid-template-columns:  33.33% 33.33% 33.33%;
-    grid-template-rows: 50% 50%;
-    height: calc(100vh);
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(150vh);
 }
 
 .destaques__categorias1{
@@ -91,6 +91,22 @@
     background: url(../imgs/cerveja_4.jpg) center / cover no-repeat;
     grid-column: 3 / 4;
     grid-row: 2 / 2;
+}
+
+.destaques__categorias7{
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+}
+
+.destaques__categorias8{
+    background: url(../imgs/cerveja_1.jpg) center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+}
+
+.destaques__categorias9{
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
 }
 
 .destaques__categorias___lista{
