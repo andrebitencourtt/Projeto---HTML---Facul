@@ -1,11 +1,11 @@
 .tabelas{
     display: grid;
-    /*grid-gap: .2rem;*/
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-
     height: calc(100vh - 50px);
 }
+
+/*========================== tabela =======================================*/
 
 .tabelas__principal{
     background: url(../imgs/fundo-sobre.jpg) center / cover no-repeat;

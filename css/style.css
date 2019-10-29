@@ -1,3 +1,5 @@
+/*==================== Grid areas =========================*/
+
 .app {
     background: #585858;
     display: grid;  
@@ -9,6 +11,32 @@
     grid-template-columns: auto;
     grid-template-rows: 200px auto auto; 
 }
+
+.conteudo__pages{
+    grid-area: conteudo;
+}
+
+.cabecalho {
+    padding: 0 2rem;
+    grid-area: cabecalho;
+    background:  #424242;
+}
+ 
+.conteudo__home {
+    padding: 0 2rem;
+    grid-area: conteudo;
+}
+
+.rodape {
+    background: #424242;
+    color: #fff;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
+    grid-area: rodape;
+}
+
+/*================ cabecalho =========================*/
 
 .redes__sociais{
     display: flex;
@@ -40,29 +68,5 @@
 
 .sub:hover, .ativo {
     border-bottom: 2px solid #000;
-}
-
-.conteudo__pages{
-    grid-area: conteudo;
-}
-
-.cabecalho {
-    padding: 0 2rem;
-    grid-area: cabecalho;
-    background:  #424242;
-}
- 
-.conteudo {
-    padding: 0 2rem;
-    grid-area: conteudo;
-}
-
-.rodape {
-    background: #424242;
-    color: #fff;
-    font-size: .8rem;
-    padding: 1rem;
-    text-align: center;
-    grid-area: rodape;
 }
 
